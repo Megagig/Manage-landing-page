@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Bright-Red: hsl(12, 88%, 59%);
+  --Dark-Blue: hsl(228, 39%, 23%);
+  --Dark-Grayish-Blue: hsl(227, 12%, 61%);
+  --Very-Dark-Blue: hsl(233, 12%, 13%);
+  --Very-Pale-Red: hsl(13, 100%, 96%);
+  --Vary-Light-Gray: hsl(0, 0%, 98%);
+}
+a {
+  text-decoration: none;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem;
+}
+.navbar-toggle {
+  display: none;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+nav button,
+.landing-content button {
+  all: unset;
+  background-color: var(--Bright-Red);
+  color: white;
+  border-radius: 4rem;
+  padding: 7px 1rem;
+}
+
+.landing {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 4rem;
+}
+
+.landing-image,
+.landing-content {
+  width: 40%;
+}
+.landing-image img {
+  width: 100%;
+}
+
+.landing-content p {
+  margin: 1rem 0;
+  font-weight: 700;
+}
+
+#features {
+  display: flex;
+  padding: 10px 4rem;
+  gap: 12rem;
+}
+
+.manage {
+  width: 50%;
+}
+
+.manage p {
+  padding: 2rem 0;
+}
+
+.features-items {
+  padding: 2rem 3rem;
+}
+
+.features-items p {
+  padding: 1.4rem 5rem;
+}
+.number-btn {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.number-btn button {
+  all: unset;
+  border-radius: 2rem;
+  padding: 3px 1rem;
+  background-color: var(--Bright-Red);
+  color: white;
+  gap: 2rem;
+}
+
+.testmonials-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 3rem 1rem;
+}
+#testmonial h3 {
+  text-align: center;
+}
+.person-image img,
+h4,
+p {
+  width: 50%;
+  align-items: center;
+}
+
+#testmonial button {
+  all: unset;
+  background-color: var(--Bright-Red);
+  color: white;
+  border-radius: 4rem;
+  padding: 7px 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.simplify {
+  display: flex;
+  justify-content: space-between;
+  padding: 6rem 4rem;
+  background-color: var(--Bright-Red);
+  margin: 6rem 0;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--Very-Dark-Blue);
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 7rem;
+  padding: 2rem 4rem;
+}
