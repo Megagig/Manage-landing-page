@@ -12,15 +12,18 @@
   --Very-Pale-Red: hsl(13, 100%, 96%);
   --Vary-Light-Gray: hsl(0, 0%, 98%);
 }
+
 a {
   text-decoration: none;
 }
+
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2rem 4rem;
 }
+
 .navbar-toggle {
   display: none;
 }
@@ -29,6 +32,17 @@ nav {
   display: flex;
   list-style: none;
   gap: 2rem;
+}
+
+.person-image img,
+h4,
+p {
+  width: 50%;
+  align-items: center;
+}
+
+.manage p {
+  padding: 2rem 0;
 }
 
 nav button,
@@ -51,6 +65,7 @@ nav button,
 .landing-content {
   width: 40%;
 }
+
 .landing-image img {
   width: 100%;
 }
@@ -70,10 +85,6 @@ nav button,
   width: 50%;
 }
 
-.manage p {
-  padding: 2rem 0;
-}
-
 .features-items {
   padding: 2rem 3rem;
 }
@@ -81,6 +92,7 @@ nav button,
 .features-items p {
   padding: 1.4rem 5rem;
 }
+
 .number-btn {
   display: flex;
   align-items: center;
@@ -103,14 +115,9 @@ nav button,
   gap: 2rem;
   padding: 3rem 1rem;
 }
+
 #testmonial h3 {
   text-align: center;
-}
-.person-image img,
-h4,
-p {
-  width: 50%;
-  align-items: center;
 }
 
 #testmonial button {
