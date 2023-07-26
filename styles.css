@@ -93,7 +93,7 @@ nav button,
   padding: 1.4rem 5rem;
 }
 
-.number-btn {
+.f.features-items.number-btn {
   display: flex;
   align-items: center;
   gap: 2rem;
@@ -150,4 +150,24 @@ footer {
   align-items: center;
   gap: 7rem;
   padding: 2rem 4rem;
+}
+
+@media screen and (max-width: 992px) {
+  nav {
+    padding: 2rem 4rem;
+  }
+  .manage {
+    width: 100%;
+  }
+
+  .manage p {
+    padding: 2rem 0;
+  }
+  .features-items {
+    padding: 2rem 1rem;
+  }
+  .features-items p {
+    padding: 1.4rem 1rem;
+    margin: 0 2rem;
+  }
 }
