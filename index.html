@@ -3,6 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700;&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/Css/owcarosel.css" />
     <link rel="stylesheet" href="styles.css" />
     <title>manage landing page</title>
   </head>
@@ -38,6 +43,7 @@
     <div class="landing">
       <div class="landing-content">
         <h1>Bring Everyone together to build better products</h1>
+
         <p>
           Manage makes it simple for software teams to plan day-to-day tasks
           while keeping the larger team goals in view
@@ -59,7 +65,7 @@
         </p>
       </div>
 
-      <div>
+      <div class="features-content">
         <div class="features-items">
           <div class="number-btn">
             <button>01</button>
@@ -102,39 +108,59 @@
       <div class="testmonials">
         <div class="testmonials-item">
           <div class="person-image">
-            <img src="images/avatar-anisha.png" alt="" />
-            <h4>Anisha Li</h4>
-            <p>
-              He has supercharged our team's workflow. They maitian visiblitiy
-              on larger milestones at all times
-            </p>
-          </div>
-          <div class="person-image">
-            <img src="images/avatar-ali.png" alt="" />
-            <h4>Ali Bravo</h4>
-            <p>
-              We have been able to cancel so many other subscriptions since
-              using manage. There is no more cross channel confusion and
-              everyone is much more focused.
-            </p>
+            <img src="images/avatar-shanai.png" alt="" />
+            <div>
+              <h4>Ali Bravo</h4>
+              <p>
+                We have been able to cancel so many other subscriptions since
+                using manage. There is no more cross channel confusion and
+                everyone is much more focused.
+              </p>
+            </div>
           </div>
           <div class="person-image">
             <img src="images/avatar-richard.png" alt="" />
-            <h4>Richard Watts</h4>
-            <p>
-              Manage allows us to provide structure and process. It keeps us
-              organized and focused on the tasks at hand. I can't stop
-              recommending them to anyone i talk to.
-            </p>
+            <div>
+              <h4>Ali Bravo</h4>
+              <p>
+                We have been able to cancel so many other subscriptions since
+                using manage. There is no more cross channel confusion and
+                everyone is much more focused.
+              </p>
+            </div>
+          </div>
+          <div class="person-image">
+            <img src="images/avatar-anisha.png" alt="" />
+            <div>
+              <h4>Ali Bravo</h4>
+              <p>
+                We have been able to cancel so many other subscriptions since
+                using manage. There is no more cross channel confusion and
+                everyone is much more focused.
+              </p>
+            </div>
+          </div>
+          <div class="person-image">
+            <img src="images/avatar-ali.png" alt="" />
+            <div>
+              <h4>Ali Bravo</h4>
+              <p>
+                We have been able to cancel so many other subscriptions since
+                using manage. There is no more cross channel confusion and
+                everyone is much more focused.
+              </p>
+            </div>
           </div>
         </div>
       </div>
-      <button class="testmonial-btn">Get Started</button>
-      <div class="simplify">
-        <h3>Simplify how your team works today</h3>
-        <button>Get Started</button>
-      </div>
+      <button class="testmonial-btn">Get Started</button>\
     </section>
+
+    <div class="simplify">
+      <h3>Simplify how your team works today</h3>
+      <button>Get Started</button>
+    </div>
+
     <footer>
       <div class="footer-logo">
         <img src="images/logo.svg" alt="" />
@@ -157,13 +183,15 @@
           <a href="#"><i class="fa fa-linkedin"></i></a>
         </div>
         <div class="copyright">
-          <input type="text" placeholder="Your email" />
-          <button>Go</button>
+          <input type="text" name="email" id="email" placeholder="Your email" />
+          <button class="go">Go</button>
           <p>© 2020 Manage. All rights reserved</p>
         </div>
       </div>
     </footer>
 
+    <script src="Js/jQuery.js"></script>
+    <script src="Js/Owllcarosel.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
