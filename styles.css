@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Be vietnam', sans-serif;
 }
 
 :root {
@@ -13,6 +14,10 @@
   --Vary-Light-Gray: hsl(0, 0%, 98%);
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
 a {
   text-decoration: none;
 }
@@ -161,6 +166,8 @@ nav button,
 
 #testmonial h3 {
   text-align: center;
+  margin-top: 61px;
+  font-size: 33px;
 }
 
 #testmonial button {
@@ -177,11 +184,16 @@ nav button,
 .simplify {
   display: flex;
   justify-content: space-between;
-  padding: 6rem 4rem;
+  align-items: center;
+  padding: 4rem 10rem;
   background-color: var(--Bright-Red);
   margin: 6rem 0 0;
   color: white;
-  font-size: 40px;
+}
+
+.simplify h3 {
+  font-size: 30px;
+  width: 40%;
 }
 
 .simplify button {
@@ -189,7 +201,7 @@ nav button,
   background-color: white;
   color: var(--Bright-Red);
   border-radius: 4rem;
-  padding: 5px 1rem;
+  padding: 10px 2rem;
 }
 
 footer {
@@ -226,6 +238,10 @@ footer {
   margin-top: 4rem;
 }
 
+ul {
+  list-style: none;
+}
+
 .footer-links a {
   display: block;
   color: white;
@@ -244,7 +260,22 @@ footer {
   font-size: 1.2rem;
 }
 
+.social-links {
+  margin-top: 2rem;
+  color: white;
+}
+.social-links i {
+  font-size: 20px;
+  padding: 1rem 5px;
+}
+
+.social-links a {
+  color: white;
+}
 @media screen and (max-width: 992px) {
+  nav button {
+    display: none;
+  }
   .landing {
     padding: 6rem 4rem 5rem 4rem;
   }
@@ -252,11 +283,30 @@ footer {
   .features {
     padding: 2rem 4rem 5rem 4rem;
   }
+  .features-items {
+    padding: 0;
+  }
+  .simplify {
+    padding: 4rem 6rem;
+  }
+
+  .footer-logo {
+    padding: 2rem 2rem;
+    gap: 5rem;
+  }
+
+  .go {
+    margin-top: 15px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   nav {
     margin-top: 1rem;
+  }
+
+  nav ul {
+    gap: 12px;
   }
   nav button {
     display: none;
@@ -268,6 +318,10 @@ footer {
 
   .features {
     padding: 2rem;
+  }
+
+  #email {
+    padding: 7px;
   }
 }
 
@@ -305,8 +359,5 @@ footer {
     display: flex;
     flex-direction: column-reverse;
     padding: 3rem 2rem 5rem 2rem;
-  }
-
-  .landing-image img {
   }
 }
